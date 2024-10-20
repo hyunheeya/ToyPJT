@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>암호화 결과</h1>
+<p>암호화된 문장: {{ result }}</p>
+<p>키: {{ key }}</p>
+<a href="{% url 'encryption_app:index' %}">[메인 페이지]</a>
+{% endblock %}

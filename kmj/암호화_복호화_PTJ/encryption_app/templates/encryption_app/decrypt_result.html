@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>복호화 결과</h1>
+<p>복호화된 텍스트: {{ result }}</p>
+<a href="{% url 'encryption_app:decrypt' %}">다시 복호화하기</a>
+{% endblock %}

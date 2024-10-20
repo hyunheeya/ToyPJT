@@ -1,0 +1,10 @@
+{% extends "base.html" %} 
+
+{% block content %}
+<h1>복호화</h1>
+<form action="{% url 'encryption_app:decrypt' %}" method="post">
+  {% csrf_token %}
+  {{ form.as_p}}
+  <input type="submit" value="완료">
+</form>
+{% endblock content %}

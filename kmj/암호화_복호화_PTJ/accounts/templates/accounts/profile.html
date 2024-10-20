@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>프로필 페이지</h1>
+<h2>암호화된 데이터</h2>
+<table>
+    <tr>
+        <th>암호화된 문장</th>
+        <th>암호화 키</th>
+    </tr>
+    {% for encryption in encryptions %}
+    <tr>
+        <td>{{ encryption.content }}</td>
+        <td>{{ encryption.key }}</td>
+    </tr>
+    {% empty %}
+    <tr>
+        <td colspan="2">저장된 데이터가 없습니다.</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}
