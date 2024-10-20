@@ -30,6 +30,7 @@
    <img width="562" alt="스크린샷 2024-10-20 오후 8 46 34" src="https://github.com/user-attachments/assets/555671e5-e0d2-4904-aa18-9cf3d9e49f1a">
 
 - 복호화
+  
   <img width="567" alt="스크린샷 2024-10-20 오후 9 09 10" src="https://github.com/user-attachments/assets/8b1cc460-962f-43ca-86aa-e9c8f0890318">
 
 - 복호화 완료
